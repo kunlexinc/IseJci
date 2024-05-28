@@ -1,966 +1,1042 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>JCI Continental Lagos | Empowering Young Leaders</title>
-    <meta
-      name="description"
-      content="JCI Continental Lagos is dedicated to creating impactful community projects and providing development opportunities that empower young people to create positive change."
-    />
-    <meta
-      name="keywords"
-      content="JCI Lagos, young leaders, community projects, leadership development, positive change, volunteer opportunities, professional development"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="canonical" href="https://jci-continental-lagos.netlify.app/" />
-    <meta name="robots" content="index, follow" />
-    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+ <head>
+  <meta charset="UTF-8" />
+  <title>JCI Continental Lagos | Empowering Young Leaders</title>
+  <meta
+   name="description"
+   content="JCI Continental Lagos is dedicated to creating impactful community projects and providing development opportunities that empower young people to create positive change."
+  />
+  <meta
+   name="keywords"
+   content="JCI Lagos, young leaders, community projects, leadership development, positive change, volunteer opportunities, professional development"
+  />
+  <meta
+   name="viewport"
+   content="width=device-width, initial-scale=1.0"
+  />
+  <link
+   rel="canonical"
+   href="https://jci-continental-lagos.netlify.app/"
+  />
+  <meta
+   name="robots"
+   content="index, follow"
+  />
+  <link
+   rel="icon"
+   href="/favicon.ico"
+   type="image/x-icon"
+  />
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta
-      property="og:url"
-      content="https://jci-continental-lagos.netlify.app/"
-    />
-    <meta
-      property="og:title"
-      content="JCI Continental Lagos | Empowering Young Leaders"
-    />
-    <meta
-      property="og:description"
-      content="Join us in empowering the next generation of leaders with community-driven projects and professional development programs."
-    />
-    <meta
-      property="og:image"
-      content="https://jci-continental-lagos.netlify.app/images/jci_logo.svg"
-    />
+  <!-- Open Graph / Facebook -->
+  <meta
+   property="og:type"
+   content="website"
+  />
+  <meta
+   property="og:url"
+   content="https://jci-continental-lagos.netlify.app/"
+  />
+  <meta
+   property="og:title"
+   content="JCI Continental Lagos | Empowering Young Leaders"
+  />
+  <meta
+   property="og:description"
+   content="Join us in empowering the next generation of leaders with community-driven projects and professional development programs."
+  />
+  <meta
+   property="og:image"
+   content="https://jci-continental-lagos.netlify.app/images/jci_logo.svg"
+  />
 
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta
-      name="twitter:url"
-      content="https://jci-continental-lagos.netlify.app/"
-    />
-    <meta
-      name="twitter:title"
-      content="JCI Continental Lagos | Empowering Young Leaders"
-    />
-    <meta
-      name="twitter:description"
-      content="Join us in empowering the next generation of leaders with community-driven projects and professional development programs."
-    />
-    <meta
-      name="twitter:image"
-      content="https://jci-continental-lagos.netlify.app/images/jci_logo.svg"
-    />
+  <!-- Twitter -->
+  <meta
+   name="twitter:card"
+   content="summary_large_image"
+  />
+  <meta
+   name="twitter:url"
+   content="https://jci-continental-lagos.netlify.app/"
+  />
+  <meta
+   name="twitter:title"
+   content="JCI Continental Lagos | Empowering Young Leaders"
+  />
+  <meta
+   name="twitter:description"
+   content="Join us in empowering the next generation of leaders with community-driven projects and professional development programs."
+  />
+  <meta
+   name="twitter:image"
+   content="https://jci-continental-lagos.netlify.app/images/jci_logo.svg"
+  />
 
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="css/animate.min.css" />
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <link rel="stylesheet" href="css/spring.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-  </head>
-  <body>
-    <div class="w-[100%] mx-auto">
-      <!-- <header
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    function toggleMenu() {
+     const menu = document.getElementById('menu');
+     const btn = document.getElementById('btn');
+     if (menu.classList.contains('hidden')) {
+      menu.classList.remove('hidden');
+      btn.classList.remove('hidden');
+     } else {
+      menu.classList.add('hidden');
+      btn.classList.add('hidden');
+     }
+    }
+   </script>
+  <link
+   rel="stylesheet"
+   href="css/animate.min.css"
+  />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <link
+   rel="stylesheet"
+   href="css/spring.css"
+  />
+  <link
+   rel="stylesheet"
+   href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+ </head>
+ <body>
+  <div class="w-[100%] mx-auto">
+  
+
+   <!-- <header
     class="bg-[#3A67B1] w-[95%] mx-auto mt-3 rounded-md text-white shadow-lg flex sticky top-[3px] z-[999] left-0 right-0 items-center px-6 h-20"
    >
     <div class="logo flex">
-     <img
-      src="images/jci_logo.svg"
-      alt="logo"
-     />
-     <img
-      src="images/theme_logo.svg"
-      alt="logo"
-     />
+     <a href="index.html">
+      <img
+       src="images/jci_logo.svg"
+       alt="logo"
+     /></a>
+     <a href="index.html">
+      <img
+       src="images/theme_logo.svg"
+       alt="logo"
+     /></a>
     </div>
     <nav class="w-[60%] ml-8">
      <ul class="flex w-full">
-      <li class="mr-6"><a href="index.html">About Us</a></li>
+      <li class="mr-6"><a href="about.html">About Us</a></li>
       <li class="mr-6"><a href="what-we-do.html">What We Do</a></li>
       <li class="mr-6"><a href="our-team.html">Our People</a></li>
-      <li class="mr-6"><a href="contact.html">Newsletter</a></li>
+      <li class="mr-6"><a href="#">Newsletter</a></li>
      </ul>
     </nav>
-    <button
-     class="bg-white text-black px-4 py-2 rounded-md ml-auto hover:scale-125 transition-all"
+    <a
+     href="https://forms.gle/stSuRhn9sGTUm15G8"
+     target="_blank"
+     class="absolute right-10"
     >
-     BECOME OUR MEMBER
-    </button>
+     <button
+      class="bg-white text-black px-4 py-2 rounded-md ml-auto hover:scale-125 transition-all"
+     >
+      BECOME OUR MEMBER
+     </button></a
+    >
    </header> -->
 
-      <header
-        class="bg-[#3A67B1] w-[95%] mx-auto mt-3 rounded-md text-white shadow-lg flex sticky top-[3px] z-[999] left-0 right-0 items-center px-6 h-20"
-      >
-        <div class="logo flex">
-          <a href="index.html"> <img src="images/jci_logo.svg" alt="logo" /></a>
-          <a href="index.html">
-            <img src="images/theme_logo.svg" alt="logo"
-          /></a>
-        </div>
-        <nav class="w-[60%] ml-8">
-          <ul class="flex w-full">
-            <li class="mr-6"><a href="about.html">About Us</a></li>
-            <li class="mr-6"><a href="what-we-do.html">What We Do</a></li>
-            <li class="mr-6"><a href="our-team.html">Our People</a></li>
-            <li class="mr-6"><a href="#">Newsletter</a></li>
-          </ul>
-        </nav>
-        <a
-          href="https://forms.gle/stSuRhn9sGTUm15G8"
-          target="_blank"
-          class="absolute right-10"
-        >
-          <button
-            class="bg-white text-black px-4 py-2 rounded-md ml-auto hover:scale-125 transition-all"
-          >
-            BECOME OUR MEMBER
-          </button></a
-        >
-      </header>
+   <header
+   class="bg-[#3A67B1] w-[95%] mx-auto mt-3 rounded-md text-white shadow-lg flex sticky top-[3px] z-[999] left-0 right-0 items-center px-6 h-20"
+ >
+   <div class="logo flex items-center">
+     <a href="index.html">
+       <img src="images/jci_logo.svg" alt="logo" />
+     </a>
+     <a href="index.html" class="hidden md:grid">
+       <img src="images/theme_logo.svg" alt="logo" />
+     </a>
+   </div>
+   <!-- <button class="md:hidden ml-auto" onclick="toggleMenu()">
+     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+     </svg>
+   </button> -->
 
-      <div class="text-center space-y-7 mt-10">
-        <p class="text-[#3a67b1] text-xs md:text-sm font-semibold uppercase">
-          About Us
-        </p>
+  
 
-        <h2 class="text-[#1c1c1c] font-bold text-[35px] md:text-[70px]">
-          Meet The Team
-        </h2>
+  
 
-        <p class="text-lg md:text-xl text-[#101010]">
-          Empowering young leaders for positive change
-        </p>
+   <!-- <nav class="w-[60%] ml-8 hidden md:flex" id="menu">
+     <ul class="flex w-full">
+       <li class="mr-6"><a href="about.html">About Us</a></li>
+       <li class="mr-6"><a href="what-we-do.html">What We Do</a></li>
+       <li class="mr-6"><a href="our-team.html">Our People</a></li>
+       <li class="mr-6"><a href="#">Newsletter</a></li>
+     </ul>
+   </nav> -->
 
-        <div class="flex justify-center items-center">
-          <button
-            class="bg-[#3A67B1] text-white px-8 py-4 mt-6 rounded-md flex justify-between gap-4 items-center hover:scale-125 transition-all"
-          >
-            Get Involved
-            <img src="images/icons/arrow_forward.svg" alt="" />
-          </button>
-        </div>
-      </div>
 
-      <!-- our teams  -->
-      <section class="mt-10">
-        <h3
-          class="text-[30px] md:text-[42px] font-bold text-center text-[#101010] mb-3"
-        >
-          Our Executive Council
-        </h3>
-        <p
-          class="text-center text-sm md:text-base text-[#101010] leading-7 max-w-[700px] mx-auto"
-        >
-          Meet the people behind the passion. Our Team is dedicated to
-          delivering exceptional results and making positive impact
-        </p>
+   <a href="https://forms.gle/stSuRhn9sGTUm15G8" target="_blank" class="absolute w-[60%] md:w-auto  right-10">
+     <button class="bg-white  text-black px-4 py-2 rounded-md ml-auto hover:scale-125 transition-all">
+       BECOME OUR MEMBER
+     </button>
+   </a>
 
-        <div class="max-w-[1200px] px-3 mx-auto mt-12 space-y-8">
-          <div class="grid place-items-center grid-cols-1 lg:grid-cols-3 gap-8">
-            <div></div>
-            <div
-              class="w-full py-6 px-7 flex flex-col gap-y-6 bg-[#101010] rounded-lg"
-            >
-              <img
-                src="images/teamspic/ANUOLUWA_1.jpg"
-                alt=""
-                class="rounded-lg h-[230px]"
-              />
-              <div>
-                <h3 class="text-white font-bold text-2xl text-center">
-                  Anuoluwapo Ajala
-                </h3>
-                <p class="text-[#3167b1] text-sm text-center mt-3">President</p>
+<button id="menu-btn" class="block md:hidden ml-auto " onclick="toggleMenu()">
+     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+       <!-- <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path> -->
+       <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6h16.5m-16.5 6h16.5m-16.5 6h16.5" /></path>
+     </svg>
+   </button>
+<nav id="menu" class=" absolute top-full left-0 w-full bg-[#3A67B1] shadow-md md:shadow-none md:relative md:top-auto md:left-auto md:bg-transparent md:w-auto">
+  
+     <ul class="flex flex-col md:flex-row md:space-x-4 lg:space-x-6 p-4 md:p-0">
+       <li><a href="about.html" class="block py-2 md:py-0">About Us</a></li>
+       <li><a href="what-we-do.html" class="block py-2 md:py-0">What We Do</a></li>
+       <li><a href="our-team.html" class="block py-2 md:py-0">Our People</a></li>
+       <!-- <li><a href="our-team.html" class="block py-2 md:py-0">Our Team</a></li> -->
+     </ul>
+    
+   </nav>
 
-                <div class="mt-7 flex justify-center items-center gap-x-3">
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/facebook.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
+ </header>
 
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/linkedin.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/instagram.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/twitter.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div></div>
-          </div>
-          <div
-            class="grid place-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
-          >
-            <div
-              class="w-full py-6 px-7 flex flex-col gap-y-6 bg-white rounded-lg"
-            >
-              <img
-                src="images/teamspic/IMG-20221029-WA0018 - AbdulAzeez Oladejo.jpg"
-                alt=""
-                class="rounded-lg h-[230px]"
-              />
-              <div>
-                <h3 class="text-[#101010] font-bold text-xl text-center">
-                  AbdulAzeez Oladejo
-                </h3>
-                <p class="text-[#3167b1] text-sm text-center mt-3">EVP</p>
 
-                <div class="mt-7 flex justify-center items-center gap-x-3">
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/facebook.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
+   <div class="text-center space-y-7 mt-10">
+    <p
+     class="text-[#3a67b1] text-xs md:text-sm font-semibold uppercase"
+    >
+     About Us
+    </p>
 
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/linkedin.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/instagram.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/twitter.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              class="w-full py-6 px-7 flex flex-col gap-y-6 bg-white rounded-lg"
-            >
-              <img
-                src="images/teamspic/lemo passport s2.jpg"
-                alt=""
-                class="rounded-lg h-[230px]"
-              />
-              <div>
-                <h3 class="text-[#101010] font-bold text-xl text-center">
-                  Oluwatosin lemo
-                </h3>
-                <p class="text-[#3167b1] text-sm text-center mt-3">
-                  Vice President (Business)
-                </p>
+    <h2 class="text-[#1c1c1c] font-bold text-[35px] md:text-[70px]">
+     Meet The Team
+    </h2>
 
-                <div class="mt-7 flex justify-center items-center gap-x-3">
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/facebook.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
+    <p class="text-lg md:text-xl text-[#101010]">
+     Empowering young leaders for positive change
+    </p>
 
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/linkedin.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/instagram.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/twitter.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              class="w-full py-6 px-7 flex flex-col gap-y-6 bg-white rounded-lg"
-            >
-              <img
-                src="images/teamspic/Feyi Akinyode.jpg"
-                alt=""
-                class="rounded-lg h-[230px]"
-              />
-              <div>
-                <h3 class="text-[#101010] font-bold text-xl text-center">
-                  Feyi Akinyode
-                </h3>
-                <p class="text-[#3167b1] text-sm text-center mt-3">
-                  General Legal councel
-                </p>
+    <div class="flex justify-center items-center">
+     <button
+      class="bg-[#3A67B1] text-white px-8 py-4 mt-6 rounded-md flex justify-between gap-4 items-center hover:scale-125 transition-all"
+     >
+      Get Involved
+      <img
+       src="images/icons/arrow_forward.svg"
+       alt=""
+      />
+     </button>
+    </div>
+   </div>
 
-                <div class="mt-7 flex justify-center items-center gap-x-3">
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/facebook.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
+   <!-- our teams  -->
+   <section class="mt-10">
+    <h3
+     class="text-[30px] md:text-[42px] font-bold text-center text-[#101010] mb-3"
+    >
+     Our Executive Council
+    </h3>
+    <p
+     class="text-center text-sm md:text-base text-[#101010] leading-7 max-w-[700px] mx-auto"
+    >
+     Meet the people behind the passion. Our Team is dedicated to
+     delivering exceptional results and making positive impact
+    </p>
 
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/linkedin.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/instagram.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/twitter.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="grid place-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
-          >
-            <div
-              class="w-full py-6 px-7 flex flex-col gap-y-6 bg-white rounded-lg"
-            >
-              <img
-                src="images/teamspic/IMG-20190710-WA0027 - Ifeoluwa Olusesi.jpg"
-                alt=""
-                class="rounded-lg h-[230px]"
-              />
-              <div>
-                <h3 class="text-[#101010] font-bold text-xl text-center">
-                  Ifeoluwa Olusesi
-                </h3>
-                <p class="text-[#3167b1] text-sm text-center mt-3">
-                  Secretary General
-                </p>
-
-                <div class="mt-7 flex justify-center items-center gap-x-3">
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/facebook.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/linkedin.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/instagram.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/twitter.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              class="w-full py-6 px-7 flex flex-col gap-y-6 bg-transparent rounded-lg"
-            >
-              <img
-                src="images/teamspic/IMG_4819 - Olutayo Osho.jpeg"
-                alt=""
-                class="rounded-lg h-[230px]"
-              />
-              <div>
-                <h3 class="text-[#101010] font-bold text-xl text-center">
-                  Olutayo Osho
-                </h3>
-                <p class="text-[#3167b1] text-sm text-center mt-3">
-                  Chief Financial Officer
-                </p>
-
-                <div class="mt-7 flex justify-center items-center gap-x-3">
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/facebook.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/linkedin.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/instagram.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/twitter.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              class="w-full py-6 px-7 flex flex-col gap-y-6 bg-transparent rounded-lg"
-            >
-              <img
-                src="images/teamspic/Rahmat Olaoye - Rahmat Olaoye.jpg"
-                alt=""
-                class="rounded-lg h-[230px]"
-              />
-              <div>
-                <h3 class="text-[#101010] font-bold text-xl text-center">
-                  Rahmat Olaoye
-                </h3>
-                <p class="text-[#3167b1] text-sm text-center mt-3">
-                  Director Of Meeting And Logistics
-                </p>
-
-                <div class="mt-7 flex justify-center items-center gap-x-3">
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/facebook.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/linkedin.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/instagram.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/twitter.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="grid place-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
-          >
-            <div
-              class="w-full py-6 px-7 flex flex-col gap-y-6 bg-transparent rounded-lg"
-            >
-              <img
-                src="images/teamspic/Juliet Banto.jpg"
-                alt=""
-                class="rounded-lg h-[230px]"
-              />
-              <div>
-                <h3 class="text-[#101010] font-bold text-xl text-center">
-                  Juliet Banto
-                </h3>
-                <p class="text-[#3167b1] text-sm text-center mt-3">
-                  Director Of Projects And Community
-                </p>
-
-                <div class="mt-7 flex justify-center items-center gap-x-3">
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/facebook.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/linkedin.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/instagram.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/twitter.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              class="w-full py-6 px-7 flex flex-col gap-y-6 bg-transparent rounded-lg"
-            >
-              <img
-                src="images/teamspic/4583553C-EBC7-4194-813E-4DB41C60B9BA - Caleb Adekunle.jpeg"
-                alt=""
-                class="rounded-lg h-[230px]"
-              />
-              <div>
-                <h3 class="text-[#101010] font-bold text-xl text-center">
-                  Caleb Adekunle
-                </h3>
-                <p class="text-[#3167b1] text-sm text-center mt-3">
-                  Award And docummentation
-                </p>
-
-                <div class="mt-7 flex justify-center items-center gap-x-3">
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/facebook.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/linkedin.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/instagram.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/twitter.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              class="w-full py-6 px-7 flex flex-col gap-y-6 bg-transparent rounded-lg"
-            >
-              <img
-                src="images/teamspic/IMG_2166 - Adeniyi Tolulope.jpeg"
-                alt=""
-                class="rounded-lg h-[230px]"
-              />
-              <div>
-                <h3 class="text-[#101010] font-bold text-xl text-center">
-                  Adeniyi Tolulope
-                </h3>
-                <p class="text-[#3167b1] text-sm text-center mt-3">
-                  Chief Training Officer
-                </p>
-
-                <div class="mt-7 flex justify-center items-center gap-x-3">
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/facebook.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/linkedin.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/instagram.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/twitter.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="grid place-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
-          >
-            <div
-              class="w-full py-6 px-7 flex flex-col gap-y-6 bg-transparent rounded-lg"
-            >
-              <img
-                src="images/teamspic/9E9B2DC2-0E2E-4801-8F38-DE1089B34D79 - Lola Adegun.jpeg"
-                alt=""
-                class="rounded-lg h-[230px]"
-              />
-              <div>
-                <h3 class="text-[#101010] font-bold text-xl text-center">
-                  Damilola Adegun
-                </h3>
-                <p class="text-[#3167b1] text-sm text-center mt-3">
-                  Director Of Socials And Welfare
-                </p>
-
-                <div class="mt-7 flex justify-center items-center gap-x-3">
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/facebook.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/linkedin.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/instagram.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/twitter.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              class="w-full py-6 px-7 flex flex-col gap-y-6 bg-transparent rounded-lg"
-            >
-              <img
-                src="images/teamspic/9D8E5AF5-B1D4-4814-91B1-44C39C7EB5FA - Raji Molayo.png"
-                alt=""
-                class="rounded-lg h-[230px]"
-              />
-              <div>
-                <h3 class="text-[#101010] font-bold text-xl text-center">
-                  Anifat Raji
-                </h3>
-                <p class="text-[#3167b1] text-sm text-center mt-3">
-                  Director Of Brands, Media And Communications
-                </p>
-
-                <div class="mt-7 flex justify-center items-center gap-x-3">
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/facebook.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/linkedin.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/instagram.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/twitter.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              class="w-full py-6 px-7 flex flex-col gap-y-6 bg-transparent rounded-lg"
-            >
-              <img
-                src="images/teamspic/Giwa Fauzziyah.jpg"
-                alt=""
-                class="rounded-lg h-[230px]"
-              />
-              <div>
-                <h3 class="text-[#101010] font-bold text-xl text-center">
-                  Giwa Fauzziyah
-                </h3>
-                <p class="text-[#3167b1] text-sm text-center mt-3">
-                  Executive Assistant
-                </p>
-
-                <div class="mt-7 flex justify-center items-center gap-x-3">
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/facebook.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/linkedin.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/instagram.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/twitter.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- banner1 -->
+    <div class="max-w-[1200px] px-3 mx-auto mt-12 space-y-8">
+     <div
+      class="grid place-items-center grid-cols-1 lg:grid-cols-3 gap-8"
+     >
+      <div></div>
       <div
-        class="bg-[url('./images/Rectangle.png')] bg-no-repeat bg-cover max-w-[1200px] px-3 lg:px-6 mx-auto flex justify-center items-center flex-col lg:flex-row lg:justify-between py-6 my-8 rounded-lg"
+       class="w-full py-6 px-7 flex flex-col gap-y-6 bg-[#101010] rounded-lg"
       >
-        <p
-          class="text-center lg:text-left text-sm leading-7 text-white max-w-[500px]"
-        >
-          JCI Continental Lagos is more than an organization; it's a global
-          movement driven by young, visionary leaders like you. Join us in
-          shaping a brighter future for all.
+       <div
+        class="bg-[url('images/teamspic/ANUOLUWA_1.jpg')] bg-no-repeat bg-cover bg-top rounded-lg h-[260px]"
+       ></div>
+       <div>
+        <h3 class="text-white font-bold text-2xl text-center">
+         Anuoluwapo Ajala
+        </h3>
+        <p class="text-[#3167b1] text-sm text-center mt-3">
+         President
         </p>
 
-        <div class="flex justify-center items-center">
-          <a href="https://forms.gle/stSuRhn9sGTUm15G8" target="_blank">
-            <button
-              class="bg-[#3A67B1] text-white px-8 py-4 mt-6 rounded-md flex justify-between gap-4 text-sm items-center hover:scale-125 transition-all uppercase"
-            >
-              Become our member
-              <img src="images/icons/arrow_forward.svg" alt="" />
-            </button>
-          </a>
+        <div class="mt-7 flex justify-center items-center gap-x-3">
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/facebook.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/linkedin.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/instagram.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/twitter.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
         </div>
+       </div>
+      </div>
+      <div></div>
+     </div>
+
+     <div
+      class="grid place-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+     >
+      <div
+       class="w-full py-6 px-7 flex flex-col gap-y-6 bg-white rounded-lg"
+      >
+       <div
+        class="bg-[url('images/teamspic/IMG-20221029-WA0018-AbdulAzeez-Oladejo.jpg')] bg-no-repeat bg-cover bg-top rounded-lg h-[260px]"
+       ></div>
+       <div>
+        <h3 class="text-[#101010] font-bold text-xl text-center">
+         AbdulAzeez Oladejo
+        </h3>
+        <p class="text-[#3167b1] text-sm text-center mt-3">EVP</p>
+
+        <div class="mt-7 flex justify-center items-center gap-x-3">
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/facebook.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/linkedin.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/instagram.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/twitter.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+        </div>
+       </div>
       </div>
 
-      <!-- our Board Members  -->
-      <section class="mt-10">
-        <h3
-          class="text-[30px] md:text-[42px] font-bold text-center text-[#101010] mb-3"
-        >
-          Our Board Members
+      <div
+       class="w-full py-6 px-7 flex flex-col gap-y-6 bg-white rounded-lg"
+      >
+       <div
+        class="bg-[url('images/teamspic/lemo-passport-s2.jpg')] bg-no-repeat bg-cover bg-top rounded-lg h-[260px]"
+       ></div>
+       <div>
+        <h3 class="text-[#101010] font-bold text-xl text-center">
+         Oluwatosin lemo
         </h3>
-        <p
-          class="text-center text-sm md:text-base text-[#101010] leading-7 max-w-[700px] mx-auto"
-        >
-          Meet the people behind the passion. Our Team is dedicated to
-          delivering exceptional results and making positive impact
+        <p class="text-[#3167b1] text-sm text-center mt-3">
+         Vice President (Business)
         </p>
 
-        <div class="max-w-[1200px] px-3 mx-auto mt-12 space-y-8">
-          <!-- <div
+        <div class="mt-7 flex justify-center items-center gap-x-3">
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/facebook.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/linkedin.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/instagram.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/twitter.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+        </div>
+       </div>
+      </div>
+
+      <div
+       class="w-full py-6 px-7 flex flex-col gap-y-6 bg-white rounded-lg"
+      >
+       <div
+        class="bg-[url('images/teamspic/Feyi-Akinyode.jpg')] bg-no-repeat bg-cover bg-top rounded-lg h-[260px]"
+       ></div>
+       <div>
+        <h3 class="text-[#101010] font-bold text-xl text-center">
+         Feyi Akinyode
+        </h3>
+        <p class="text-[#3167b1] text-sm text-center mt-3">
+         General Legal councel
+        </p>
+
+        <div class="mt-7 flex justify-center items-center gap-x-3">
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/facebook.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/linkedin.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/instagram.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/twitter.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+
+     <div
+      class="grid place-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+     >
+      <div
+       class="w-full py-6 px-7 flex flex-col gap-y-6 bg-white rounded-lg"
+      >
+       <div
+        class="bg-[url('images/teamspic/IMG-20190710-WA0027-Ifeoluwa-Olusesi.jpg')] bg-no-repeat bg-cover bg-top rounded-lg h-[260px]"
+       ></div>
+       <div>
+        <h3 class="text-[#101010] font-bold text-xl text-center">
+         Ifeoluwa Olusesi
+        </h3>
+        <p class="text-[#3167b1] text-sm text-center mt-3">
+         Secretary General
+        </p>
+
+        <div class="mt-7 flex justify-center items-center gap-x-3">
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/facebook.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/linkedin.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/instagram.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/twitter.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+        </div>
+       </div>
+      </div>
+
+      <div
+       class="w-full py-6 px-7 flex flex-col gap-y-6 bg-transparent rounded-lg"
+      >
+       <div
+        class="bg-[url('images/teamspic/IMG_4819-Olutayo-Osho.jpeg')] bg-no-repeat bg-cover bg-top rounded-lg h-[260px]"
+       ></div>
+       <div>
+        <h3 class="text-[#101010] font-bold text-xl text-center">
+         Olutayo Osho
+        </h3>
+        <p class="text-[#3167b1] text-sm text-center mt-3">
+         Chief Financial Officer
+        </p>
+
+        <div class="mt-7 flex justify-center items-center gap-x-3">
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/facebook.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/linkedin.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/instagram.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/twitter.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+        </div>
+       </div>
+      </div>
+
+      <div
+       class="w-full py-6 px-7 flex flex-col gap-y-6 bg-transparent rounded-lg"
+      >
+       <div
+        class="bg-[url('images/teamspic/Rahmat-Olaoye-Rahmat-Olaoye.jpg')] bg-no-repeat bg-cover bg-top rounded-lg h-[260px]"
+       ></div>
+       <div>
+        <h3 class="text-[#101010] font-bold text-xl text-center">
+         Rahmat Olaoye
+        </h3>
+        <p class="text-[#3167b1] text-sm text-center mt-3">
+         Director Of Meeting And Logistics
+        </p>
+
+        <div class="mt-7 flex justify-center items-center gap-x-3">
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/facebook.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/linkedin.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/instagram.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/twitter.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+
+     <div
+      class="grid place-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+     >
+      <div
+       class="w-full py-6 px-7 flex flex-col gap-y-6 bg-transparent rounded-lg"
+      >
+       <div
+        class="bg-[url('images/teamspic/Juliet-Banto.jpg')] bg-no-repeat bg-cover bg-top rounded-lg h-[260px]"
+       ></div>
+       <div>
+        <h3 class="text-[#101010] font-bold text-xl text-center">
+         Juliet Banto
+        </h3>
+        <p class="text-[#3167b1] text-sm text-center mt-3">
+         Director Of Projects And Community
+        </p>
+
+        <div class="mt-7 flex justify-center items-center gap-x-3">
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/facebook.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/linkedin.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/instagram.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/twitter.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+        </div>
+       </div>
+      </div>
+
+      <div
+       class="w-full py-6 px-7 flex flex-col gap-y-6 bg-transparent rounded-lg"
+      >
+       <div
+        class="bg-[url('images/teamspic/4583553C-EBC7-4194-813E-4DB41C60B9BA-Caleb-Adekunle.jpeg')] bg-no-repeat bg-cover bg-top rounded-lg h-[260px]"
+       ></div>
+       <div>
+        <h3 class="text-[#101010] font-bold text-xl text-center">
+         Caleb Adekunle
+        </h3>
+        <p class="text-[#3167b1] text-sm text-center mt-3">
+         Award And docummentation
+        </p>
+
+        <div class="mt-7 flex justify-center items-center gap-x-3">
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/facebook.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/linkedin.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/instagram.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/twitter.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+        </div>
+       </div>
+      </div>
+
+      <div
+       class="w-full py-6 px-7 flex flex-col gap-y-6 bg-transparent rounded-lg"
+      >
+       <div
+        class="bg-[url('images/teamspic/IMG_2166-Adeniyi-Tolulope.jpeg')] bg-no-repeat bg-cover bg-top rounded-lg h-[260px]"
+       ></div>
+       <div>
+        <h3 class="text-[#101010] font-bold text-xl text-center">
+         Adeniyi Tolulope
+        </h3>
+        <p class="text-[#3167b1] text-sm text-center mt-3">
+         Chief Training Officer
+        </p>
+
+        <div class="mt-7 flex justify-center items-center gap-x-3">
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/facebook.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/linkedin.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/instagram.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/twitter.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+
+     <div
+      class="grid place-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+     >
+      <div
+       class="w-full py-6 px-7 flex flex-col gap-y-6 bg-transparent rounded-lg"
+      >
+       <div
+        class="bg-[url('images/teamspic/9E9B2DC2-0E2E-4801-8F38-DE1089B34D79-Lola-Adegun.jpeg')] bg-no-repeat bg-cover bg-top rounded-lg h-[260px]"
+       ></div>
+       <div>
+        <h3 class="text-[#101010] font-bold text-xl text-center">
+         Damilola Adegun
+        </h3>
+        <p class="text-[#3167b1] text-sm text-center mt-3">
+         Director Of Socials And Welfare
+        </p>
+
+        <div class="mt-7 flex justify-center items-center gap-x-3">
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/facebook.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/linkedin.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/instagram.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/twitter.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+        </div>
+       </div>
+      </div>
+
+      <div
+       class="w-full py-6 px-7 flex flex-col gap-y-6 bg-transparent rounded-lg"
+      >
+       <div
+        class="bg-[url('images/teamspic/9D8E5AF5-B1D4-4814-91B1-44C39C7EB5FA-Raji-Molayo.png')] bg-no-repeat bg-cover bg-top rounded-lg h-[260px]"
+       ></div>
+       <div>
+        <h3 class="text-[#101010] font-bold text-xl text-center">
+         Anifat Raji
+        </h3>
+        <p class="text-[#3167b1] text-sm text-center mt-3">
+         Director Of Brands, Media And Communications
+        </p>
+
+        <div class="mt-7 flex justify-center items-center gap-x-3">
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/facebook.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/linkedin.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/instagram.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/twitter.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+        </div>
+       </div>
+      </div>
+
+      <div
+       class="w-full py-6 px-7 flex flex-col gap-y-6 bg-transparent rounded-lg"
+      >
+       <div
+        class="bg-[url('images/teamspic/Giwa-Fauzziyah.jpg')] bg-no-repeat bg-cover bg-top rounded-lg h-[260px]"
+       ></div>
+       <div>
+        <h3 class="text-[#101010] font-bold text-xl text-center">
+         Giwa Fauzziyah
+        </h3>
+        <p class="text-[#3167b1] text-sm text-center mt-3">
+         Executive Assistant
+        </p>
+
+        <div class="mt-7 flex justify-center items-center gap-x-3">
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/facebook.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/linkedin.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/instagram.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/twitter.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+
+   <!-- banner1 -->
+   <div
+    class="bg-[url('./images/Rectangle.png')] bg-no-repeat bg-cover max-w-[1200px] px-3 lg:px-6 mx-auto flex justify-center items-center flex-col lg:flex-row lg:justify-between py-6 my-8 rounded-lg"
+   >
+    <p
+     class="text-center lg:text-left text-sm leading-7 text-white max-w-[500px]"
+    >
+     JCI Continental Lagos is more than an organization; it's a global
+     movement driven by young, visionary leaders like you. Join us in
+     shaping a brighter future for all.
+    </p>
+
+    <div class="flex justify-center items-center">
+     <a
+      href="https://forms.gle/stSuRhn9sGTUm15G8"
+      target="_blank"
+     >
+      <button
+       class="bg-[#3A67B1] text-white px-8 py-4 mt-6 rounded-md flex justify-between gap-4 text-sm items-center hover:scale-125 transition-all uppercase"
+      >
+       Become our member
+       <img
+        src="images/icons/arrow_forward.svg"
+        alt=""
+       />
+      </button>
+     </a>
+    </div>
+   </div>
+
+   <!-- our Board Members  -->
+   <section class="mt-10">
+    <h3
+     class="text-[30px] md:text-[42px] font-bold text-center text-[#101010] mb-3"
+    >
+     Our Board Members
+    </h3>
+    <p
+     class="text-center text-sm md:text-base text-[#101010] leading-7 max-w-[700px] mx-auto"
+    >
+     Meet the people behind the passion. Our Team is dedicated to
+     delivering exceptional results and making positive impact
+    </p>
+
+    <div class="max-w-[1200px] px-3 mx-auto mt-12 space-y-8">
+     <!-- <div
           class="grid place-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
          >
           <div
@@ -1129,551 +1205,565 @@
            </div>
           </div>
          </div> -->
-          <div
-            class="grid place-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
-          >
-            <div
-              class="w-full py-6 px-7 flex flex-col gap-y-6 bg-transparent rounded-lg"
-            >
-              <img
-                src="images/gallery/img1.svg"
-                alt=""
-                class="rounded-lg h-[230px]"
-              />
-              <div>
-                <h3 class="text-[#101010] font-bold text-xl text-center">
-                  Anuoluwapo
-                </h3>
-                <p class="text-[#3167b1] text-sm text-center mt-3">EVP</p>
-
-                <div class="mt-7 flex justify-center items-center gap-x-3">
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/facebook.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/linkedin.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/instagram.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/twitter.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              class="w-full py-6 px-7 flex flex-col gap-y-6 bg-white rounded-lg"
-            >
-              <img
-                src="images/gallery/img1.svg"
-                alt=""
-                class="rounded-lg h-[230px]"
-              />
-              <div>
-                <h3 class="text-[#101010] font-bold text-xl text-center">
-                  Anuoluwapo
-                </h3>
-                <p class="text-[#3167b1] text-sm text-center mt-3">EVP</p>
-
-                <div class="mt-7 flex justify-center items-center gap-x-3">
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/facebook.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/linkedin.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/instagram.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/twitter.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              class="w-full py-6 px-7 flex flex-col gap-y-6 bg-white rounded-lg"
-            >
-              <img
-                src="images/gallery/img1.svg"
-                alt=""
-                class="rounded-lg h-[230px]"
-              />
-              <div>
-                <h3 class="text-[#101010] font-bold text-xl text-center">
-                  Anuoluwapo
-                </h3>
-                <p class="text-[#3167b1] text-sm text-center mt-3">EVP</p>
-
-                <div class="mt-7 flex justify-center items-center gap-x-3">
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/facebook.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/linkedin.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/instagram.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/twitter.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="grid place-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
-          >
-            <div
-              class="w-full py-6 px-7 flex flex-col gap-y-6 bg-white rounded-lg"
-            >
-              <img
-                src="images/gallery/img1.svg"
-                alt=""
-                class="rounded-lg h-[230px]"
-              />
-              <div>
-                <h3 class="text-[#101010] font-bold text-xl text-center">
-                  Anuoluwapo
-                </h3>
-                <p class="text-[#3167b1] text-sm text-center mt-3">EVP</p>
-
-                <div class="mt-7 flex justify-center items-center gap-x-3">
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/facebook.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/linkedin.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/instagram.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/twitter.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              class="w-full py-6 px-7 flex flex-col gap-y-6 bg-white rounded-lg"
-            >
-              <img
-                src="images/gallery/img1.svg"
-                alt=""
-                class="rounded-lg h-[230px]"
-              />
-              <div>
-                <h3 class="text-[#101010] font-bold text-xl text-center">
-                  Anuoluwapo
-                </h3>
-                <p class="text-[#3167b1] text-sm text-center mt-3">EVP</p>
-
-                <div class="mt-7 flex justify-center items-center gap-x-3">
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/facebook.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/linkedin.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/instagram.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/twitter.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              class="w-full py-6 px-7 flex flex-col gap-y-6 bg-transparent rounded-lg"
-            >
-              <img
-                src="images/gallery/img1.svg"
-                alt=""
-                class="rounded-lg h-[230px]"
-              />
-              <div>
-                <h3 class="text-[#101010] font-bold text-xl text-center">
-                  Anuoluwapo
-                </h3>
-                <p class="text-[#3167b1] text-sm text-center mt-3">EVP</p>
-
-                <div class="mt-7 flex justify-center items-center gap-x-3">
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/facebook.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/linkedin.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/instagram.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                  <div
-                    class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
-                  >
-                    <img
-                      src="images/socials/twitter.svg"
-                      alt=""
-                      class="w-4 h-4"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- banner2 -->
+     <div
+      class="grid place-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+     >
       <div
-        class="bg-[url('./images/Rectangle.png')] bg-no-repeat bg-cover max-w-[1200px] px-3 lg:px-6 mx-auto flex justify-center items-center flex-col lg:flex-row lg:justify-between py-6 my-8 rounded-lg"
+       class="w-full py-6 px-7 flex flex-col gap-y-6 bg-transparent rounded-lg"
       >
-        <p
-          class="text-center lg:text-left text-sm leading-7 text-white max-w-[500px]"
-        >
-          JCI Continental Lagos is more than an organization; it's a global
-          movement driven by young, visionary leaders like you. Join us in
-          shaping a brighter future for all.
-        </p>
+       <img
+        src="images/gallery/img1.svg"
+        alt=""
+        class="rounded-lg h-[230px]"
+       />
+       <div>
+        <h3 class="text-[#101010] font-bold text-xl text-center">
+         Anuoluwapo
+        </h3>
+        <p class="text-[#3167b1] text-sm text-center mt-3">EVP</p>
 
-        <div class="flex justify-center items-center">
-          <a href="https://forms.gle/stSuRhn9sGTUm15G8" target="_blank">
-            <button
-              class="bg-[#3A67B1] text-white px-8 py-4 mt-6 rounded-md flex justify-between gap-4 text-sm items-center hover:scale-125 transition-all uppercase"
-            >
-              Become our member
-              <img src="images/icons/arrow_forward.svg" alt="" />
-            </button>
-          </a>
+        <div class="mt-7 flex justify-center items-center gap-x-3">
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/facebook.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/linkedin.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/instagram.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/twitter.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
         </div>
+       </div>
       </div>
-
-      <footer
-        class="bg-black h-[60vh] xl:px-16 px-5 pt-10 flex justify-center items-center flex-col"
+      <div
+       class="w-full py-6 px-7 flex flex-col gap-y-6 bg-white rounded-lg"
       >
-        <div class="grid grid-cols-4 w-[95%] h-[70%]">
-          <div class="">
-            <h3 class="text-[#0097D7] mb-8 text-sm">RESOURCES</h3>
-            <li
-              class="list-none mb-4 text-white text-sm hover:text-[#0097D7] hover:cursor-pointer font-light"
-              role="link"
-            >
-              Blog
-            </li>
-            <li
-              class="list-none mb-4 text-white text-sm hover:text-[#0097D7] hover:cursor-pointer font-light"
-              role="link"
-            >
-              Media
-            </li>
-            <li
-              class="list-none mb-4 text-white text-sm hover:text-[#0097D7] hover:cursor-pointer font-light"
-              role="link"
-            >
-              Ebooks
-            </li>
-            <li
-              class="list-none mb-4 text-white text-sm hover:text-[#0097D7] hover:cursor-pointer font-light"
-              role="link"
-            >
-              Brand Kits
-            </li>
-          </div>
-          <div class="">
-            <h3 class="text-[#0097D7] mb-8 text-sm">
-              ABOUT JCI CONTENETAL LAGOS
-            </h3>
-            <li
-              class="list-none mb-4 text-white text-sm hover:text-[#0097D7] hover:cursor-pointer font-light"
-              role="link"
-            >
-              Our Story
-            </li>
-            <li
-              class="list-none mb-4 text-white text-sm hover:text-[#0097D7] hover:cursor-pointer font-light"
-              role="link"
-            >
-              Career Opportunities
-            </li>
-            <li
-              class="list-none mb-4 text-white text-sm hover:text-[#0097D7] hover:cursor-pointer font-light"
-              role="link"
-            >
-              Contact JCI Continental Lagos
-            </li>
-          </div>
-          <div class="">
-            <h3 class="text-[#0097D7] mb-8">MORE</h3>
-            <li
-              class="list-none mb-4 text-white text-sm hover:text-[#0097D7] hover:cursor-pointer font-light"
-              role="link"
-            >
-              Become a Member
-            </li>
-            <li
-              class="list-none mb-4 text-white text-sm hover:text-[#0097D7] hover:cursor-pointer font-light"
-              role="link"
-            >
-              Become a Partner
-            </li>
-            <li
-              class="list-none mb-4 text-white text-sm hover:text-[#0097D7] hover:cursor-pointer font-light"
-              role="link"
-            >
-              Become a Sponsor
-            </li>
-            <li
-              class="list-none mb-4 text-white text-sm hover:text-[#0097D7] hover:cursor-pointer font-light"
-              role="link"
-            >
-              Join Tech Team
-            </li>
-          </div>
-          <div class="">
-            <h3 class="text-[#0097D7] mb-8">SOCIAL</h3>
-            <li class="list-none mb-4 flex">
-              <img
-                src="images/socials/facebook.svg"
-                alt=""
-                class="mr-3 hover:cursor-pointer hover:scale-125 transition-all"
-                role="link"
-              />
-              <img
-                src="images/socials/instagram.svg"
-                alt=""
-                class="mr-3 hover:cursor-pointer hover:scale-125 transition-all"
-                role="link"
-              />
-              <img
-                src="images/socials/linkedin.svg"
-                alt=""
-                class="mr-3 hover:cursor-pointer hover:scale-125 transition-all"
-                role="link"
-              />
-              <img
-                src="images/socials/twitter.svg"
-                alt=""
-                class="mr-3 hover:cursor-pointer hover:scale-125 transition-all"
-                role="link"
-              />
-            </li>
-            <li class="list-none mb-4 flex">
-              <img src="images/jci_logo.svg" alt="" width="200" />
-              <img src="images/theme_logo.svg" alt="" width="200" />
-            </li>
-          </div>
+       <img
+        src="images/gallery/img1.svg"
+        alt=""
+        class="rounded-lg h-[230px]"
+       />
+       <div>
+        <h3 class="text-[#101010] font-bold text-xl text-center">
+         Anuoluwapo
+        </h3>
+        <p class="text-[#3167b1] text-sm text-center mt-3">EVP</p>
+
+        <div class="mt-7 flex justify-center items-center gap-x-3">
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/facebook.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/linkedin.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/instagram.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/twitter.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
         </div>
-        <div class="text-white font-extralight w-full text-sm flex">
-          <span class="mr-10">
-            © 2022. JCI Continental Lagos. All Rights Reserved</span
-          >
-          <span
-            class="mr-10 hover:cursor-pointer hover:scale-125 transition-all hover:text-[#0097D7]"
-            role="link"
-            >Terms of Use</span
-          >
-          <span
-            class="mr-10 hover:cursor-pointer hover:scale-125 transition-all hover:text-[#0097D7]"
-            role="link"
-            >Privacy & Security</span
-          >
+       </div>
+      </div>
+      <div
+       class="w-full py-6 px-7 flex flex-col gap-y-6 bg-white rounded-lg"
+      >
+       <img
+        src="images/gallery/img1.svg"
+        alt=""
+        class="rounded-lg h-[230px]"
+       />
+       <div>
+        <h3 class="text-[#101010] font-bold text-xl text-center">
+         Anuoluwapo
+        </h3>
+        <p class="text-[#3167b1] text-sm text-center mt-3">EVP</p>
+
+        <div class="mt-7 flex justify-center items-center gap-x-3">
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/facebook.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/linkedin.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/instagram.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/twitter.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
         </div>
-      </footer>
+       </div>
+      </div>
+     </div>
+     <div
+      class="grid place-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+     >
+      <div
+       class="w-full py-6 px-7 flex flex-col gap-y-6 bg-white rounded-lg"
+      >
+       <img
+        src="images/gallery/img1.svg"
+        alt=""
+        class="rounded-lg h-[230px]"
+       />
+       <div>
+        <h3 class="text-[#101010] font-bold text-xl text-center">
+         Anuoluwapo
+        </h3>
+        <p class="text-[#3167b1] text-sm text-center mt-3">EVP</p>
+
+        <div class="mt-7 flex justify-center items-center gap-x-3">
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/facebook.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/linkedin.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/instagram.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/twitter.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+        </div>
+       </div>
+      </div>
+      <div
+       class="w-full py-6 px-7 flex flex-col gap-y-6 bg-white rounded-lg"
+      >
+       <img
+        src="images/gallery/img1.svg"
+        alt=""
+        class="rounded-lg h-[230px]"
+       />
+       <div>
+        <h3 class="text-[#101010] font-bold text-xl text-center">
+         Anuoluwapo
+        </h3>
+        <p class="text-[#3167b1] text-sm text-center mt-3">EVP</p>
+
+        <div class="mt-7 flex justify-center items-center gap-x-3">
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/facebook.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/linkedin.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/instagram.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/twitter.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+        </div>
+       </div>
+      </div>
+      <div
+       class="w-full py-6 px-7 flex flex-col gap-y-6 bg-transparent rounded-lg"
+      >
+       <img
+        src="images/gallery/img1.svg"
+        alt=""
+        class="rounded-lg h-[230px]"
+       />
+       <div>
+        <h3 class="text-[#101010] font-bold text-xl text-center">
+         Anuoluwapo
+        </h3>
+        <p class="text-[#3167b1] text-sm text-center mt-3">EVP</p>
+
+        <div class="mt-7 flex justify-center items-center gap-x-3">
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/facebook.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/linkedin.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/instagram.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+         <div
+          class="p-2.5 bg-[#F2F3EB] rounded-lg flex justify-center items-center"
+         >
+          <img
+           src="images/socials/twitter.svg"
+           alt=""
+           class="w-4 h-4"
+          />
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
     </div>
+   </section>
 
-    <script src="js/wow.min.js"></script>
+   <!-- banner2 -->
+   <div
+    class="bg-[url('./images/Rectangle.png')] bg-no-repeat bg-cover max-w-[1200px] px-3 lg:px-6 mx-auto flex justify-center items-center flex-col lg:flex-row lg:justify-between py-6 my-8 rounded-lg"
+   >
+    <p
+     class="text-center lg:text-left text-sm leading-7 text-white max-w-[500px]"
+    >
+     JCI Continental Lagos is more than an organization; it's a global
+     movement driven by young, visionary leaders like you. Join us in
+     shaping a brighter future for all.
+    </p>
 
-    <script>
-      new WOW().init();
-    </script>
-    <script>
-      const swiper = new Swiper(".swiper1", {
-        loop: true,
+    <div class="flex justify-center items-center">
+     <a
+      href="https://forms.gle/stSuRhn9sGTUm15G8"
+      target="_blank"
+     >
+      <button
+       class="bg-[#3A67B1] text-white px-8 py-4 mt-6 rounded-md flex justify-between gap-4 text-sm items-center hover:scale-125 transition-all uppercase"
+      >
+       Become our member
+       <img
+        src="images/icons/arrow_forward.svg"
+        alt=""
+       />
+      </button>
+     </a>
+    </div>
+   </div>
 
-        // Navigation arrows
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
-      // setTimeout(() => {
-      //   console.log(swiper.activeIndex);
-      //   swiper.update();
-      // }, 3000);
-    </script>
+   <footer
+    class="bg-black h-[60vh] xl:px-16 px-5 pt-10 flex justify-center items-center flex-col"
+   >
+    <div class="grid grid-cols-4 w-[95%] h-[70%]">
+     <div class="">
+      <h3 class="text-[#0097D7] mb-8 text-sm">RESOURCES</h3>
+      <li
+       class="list-none mb-4 text-white text-sm hover:text-[#0097D7] hover:cursor-pointer font-light"
+       role="link"
+      >
+       Blog
+      </li>
+      <li
+       class="list-none mb-4 text-white text-sm hover:text-[#0097D7] hover:cursor-pointer font-light"
+       role="link"
+      >
+       Media
+      </li>
+      <li
+       class="list-none mb-4 text-white text-sm hover:text-[#0097D7] hover:cursor-pointer font-light"
+       role="link"
+      >
+       Ebooks
+      </li>
+      <li
+       class="list-none mb-4 text-white text-sm hover:text-[#0097D7] hover:cursor-pointer font-light"
+       role="link"
+      >
+       Brand Kits
+      </li>
+     </div>
+     <div class="">
+      <h3 class="text-[#0097D7] mb-8 text-sm">
+       ABOUT JCI CONTENETAL LAGOS
+      </h3>
+      <li
+       class="list-none mb-4 text-white text-sm hover:text-[#0097D7] hover:cursor-pointer font-light"
+       role="link"
+      >
+       Our Story
+      </li>
+      <li
+       class="list-none mb-4 text-white text-sm hover:text-[#0097D7] hover:cursor-pointer font-light"
+       role="link"
+      >
+       Career Opportunities
+      </li>
+      <li
+       class="list-none mb-4 text-white text-sm hover:text-[#0097D7] hover:cursor-pointer font-light"
+       role="link"
+      >
+       Contact JCI Continental Lagos
+      </li>
+     </div>
+     <div class="">
+      <h3 class="text-[#0097D7] mb-8">MORE</h3>
+      <li
+       class="list-none mb-4 text-white text-sm hover:text-[#0097D7] hover:cursor-pointer font-light"
+       role="link"
+      >
+       Become a Member
+      </li>
+      <li
+       class="list-none mb-4 text-white text-sm hover:text-[#0097D7] hover:cursor-pointer font-light"
+       role="link"
+      >
+       Become a Partner
+      </li>
+      <li
+       class="list-none mb-4 text-white text-sm hover:text-[#0097D7] hover:cursor-pointer font-light"
+       role="link"
+      >
+       Become a Sponsor
+      </li>
+      <li
+       class="list-none mb-4 text-white text-sm hover:text-[#0097D7] hover:cursor-pointer font-light"
+       role="link"
+      >
+       Join Tech Team
+      </li>
+     </div>
+     <div class="">
+      <h3 class="text-[#0097D7] mb-8">SOCIAL</h3>
+      <li class="list-none mb-4 flex">
+       <img
+        src="images/socials/facebook.svg"
+        alt=""
+        class="mr-3 hover:cursor-pointer hover:scale-125 transition-all"
+        role="link"
+       />
+       <img
+        src="images/socials/instagram.svg"
+        alt=""
+        class="mr-3 hover:cursor-pointer hover:scale-125 transition-all"
+        role="link"
+       />
+       <img
+        src="images/socials/linkedin.svg"
+        alt=""
+        class="mr-3 hover:cursor-pointer hover:scale-125 transition-all"
+        role="link"
+       />
+       <img
+        src="images/socials/twitter.svg"
+        alt=""
+        class="mr-3 hover:cursor-pointer hover:scale-125 transition-all hidden md:flex"
+        role="link"
+       />
+      </li>
+      <li class="list-none mb-4 flex">
+       <img
+        src="images/jci_logo.svg"
+        alt=""
+        width="200"
+       />
+       <img
+        src="images/theme_logo.svg"
+        alt=""
+        width="200"
+       />
+      </li>
+     </div>
+    </div>
+    <div class="text-white font-extralight w-full text-sm flex">
+     <span class="mr-10">
+      © 2022. JCI Continental Lagos. All Rights Reserved</span
+     >
+     <span
+      class="mr-10 hover:cursor-pointer hover:scale-125 transition-all hover:text-[#0097D7]"
+      role="link"
+      >Terms of Use</span
+     >
+     <span
+      class="mr-10 hover:cursor-pointer hover:scale-125 transition-all hover:text-[#0097D7]"
+      role="link"
+      >Privacy & Security</span
+     >
+    </div>
+   </footer>
+  </div>
 
-    <script src="js/spring.js"></script>
-    <script>
-      const sliderEl = document.querySelector(".spring-slider");
-      console.log({ sliderEl });
+  <script src="js/wow.min.js"></script>
 
-      createSpringSlider(sliderEl, {
-        slidesPerView: 1,
-        navigation: {
-          prevEl: ".swiper-button-prev",
-          nextEl: ".swiper-button-next",
-        },
-        pagination: {
-          el: ".swiper-pagination",
-        },
-        breakpoints: {
-          640: {
-            slidesPerView: 2,
-          },
-          800: {
-            slidesPerView: 3,
-          },
-          1100: {
-            slidesPerView: 4,
-          },
-        },
-      });
-    </script>
-  </body>
+  <script>
+   new WOW().init();
+  </script>
+  <script>
+   const swiper = new Swiper('.swiper1', {
+    loop: true,
+
+    // Navigation arrows
+    navigation: {
+     nextEl: '.swiper-button-next',
+     prevEl: '.swiper-button-prev',
+    },
+   });
+   // setTimeout(() => {
+   //   console.log(swiper.activeIndex);
+   //   swiper.update();
+   // }, 3000);
+  </script>
+
+  <script src="js/spring.js"></script>
+  <script>
+   const sliderEl = document.querySelector('.spring-slider');
+   console.log({ sliderEl });
+
+   createSpringSlider(sliderEl, {
+    slidesPerView: 1,
+    navigation: {
+     prevEl: '.swiper-button-prev',
+     nextEl: '.swiper-button-next',
+    },
+    pagination: {
+     el: '.swiper-pagination',
+    },
+    breakpoints: {
+     640: {
+      slidesPerView: 2,
+     },
+     800: {
+      slidesPerView: 3,
+     },
+     1100: {
+      slidesPerView: 4,
+     },
+    },
+   });
+  </script>
+ </body>
 </html>
